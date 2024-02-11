@@ -1,0 +1,35 @@
+{
+  "language": "TypeScript",
+  "installCommand": "pnpm install",
+  "formatCommand": "pnpm run prettier .",
+  "buildCommand": "pnpm run build",
+  "style": "Tailwind",
+  "iconSet": "Heroicons",
+  "componentExamples": "/packages/web/src/components/Card.astro",
+  "apiEndpointsExamples": "/src/api/exampleEndpoint.js",
+  "pageExamples": "/packages/web/src/pages/index.astro",
+  "directories": {
+    "components": "/packages/web/src/components",
+    "pages": "/packages/web/src/pages",
+    "types": "/packages/web/src/types",
+    "styles": "/packages/web/src/styles",
+    "tailwindConfig": "/packages/web/tailwind.config.mjs",
+    "staticAssets": "/packages/web/public"
+  },
+  "stateManagement": {
+    "tool": "Redux",
+    "storeLocation": "/packages/web/src/store"
+  },
+  "testing": {
+    "writeTests": true,
+    "testFramework": "Jest"
+  },
+  "storybook": {
+    "writeStories": true,
+    "storiesLocation": "/packages/web/src/stories"
+  },
+  "envVariables": {
+    "exampleFile": "/packages/web/.env.example"
+  },
+  "env": ""
+}
