@@ -1,0 +1,28 @@
+{
+  "name": "showcase",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sst dev",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove",
+    "console": "sst console",
+    "typecheck": "tsc --noEmit",
+    "prepare": "husky install",
+    "prettier": "prettier --write --ignore-unknown"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^18.2.2",
+    "aws-cdk-lib": "2.124.0",
+    "constructs": "10.3.0",
+    "husky": "^9.0.10",
+    "prettier": "^3.2.5",
+    "sst": "^2.40.3",
+    "typescript": "^5.3.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
