@@ -2,7 +2,7 @@
   "language": "TypeScript",
   "installCommand": "pnpm install",
   "formatCommand": "pnpm run prettier .",
-  "buildCommand": "pnpm run build",
+  "buildCommand": "pnpm run --filter web build",
   "style": "Tailwind",
   "iconSet": "Heroicons",
   "componentExamples": "/packages/web/src/components/Card.astro",
